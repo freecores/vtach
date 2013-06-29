@@ -1,0 +1,31 @@
+Running: /opt/Xilinx/13.2/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/alw/projects/vtachspartan/bcdadd_tb_isim_beh.exe" -prj "/home/alw/projects/vtachspartan/bcdadd_tb_beh.prj" "work.bcdadd_tb" "work.glbl" 
+ISim O.61xd (signature 0xb4d1ced7)
+Number of CPUs detected in this system: 6
+Turning on mult-threading, number of parallel sub-compilation jobs: 12 
+Determining compilation order of HDL files
+Analyzing Verilog file \"/home/alw/projects/vtachspartan/digitadd.v\" into library work
+Analyzing Verilog file \"/home/alw/projects/vtachspartan/bcdincr.v\" into library work
+Analyzing Verilog file \"/home/alw/projects/vtachspartan/bcdadd.v\" into library work
+Analyzing Verilog file \"/home/alw/projects/vtachspartan/bcdadd_tb.v\" into library work
+Analyzing Verilog file \"/opt/Xilinx/13.2/ISE_DS/ISE//verilog/src/glbl.v\" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/home/alw/projects/vtachspartan/bcdadd.v" Line 5: Size mismatch in connection of port <a>. Formal port size is 17-bit while actual signal size is 16-bit.
+WARNING:HDLCompiler:189 - "/home/alw/projects/vtachspartan/bcdadd.v" Line 12: Size mismatch in connection of port <a>. Formal port size is 17-bit while actual signal size is 12-bit.
+Completed static elaboration
+Fuse Memory Usage: 79368 KB
+Fuse CPU Usage: 70 ms
+Compiling module digitadd
+Compiling module bcdincr
+Compiling module bcdneg17
+Compiling module bcdneg13
+Compiling module usum
+Compiling module bcdadd
+Compiling module bcdadd_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 8 Verilog Units
+Built simulation executable /home/alw/projects/vtachspartan/bcdadd_tb_isim_beh.exe
+Fuse Memory Usage: 901744 KB
+Fuse CPU Usage: 100 ms
+GCC CPU Usage: 170 ms

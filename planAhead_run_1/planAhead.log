@@ -1,0 +1,158 @@
+#-----------------------------------------------------------
+# PlanAhead v13.2 (64-bit)
+# Build 131561 by hdbuild on Thu Jun 16 16:53:07 PDT 2011
+# Start of session at: Thu May 23 23:58:43 2013
+# Process ID: 25392
+# Log file: /home/alw/projects/vtachspartan/planAhead_run_1/planAhead.log
+# Journal file: /home/alw/projects/vtachspartan/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common-78] Attempting to get a license: PlanAhead
+INFO: [Common-82] Got a license: PlanAhead
+INFO: [Common-86] Your PlanAhead license expires in -418 day(s)
+INFO: [ArchReader-0] Loading parts and site information from /opt/Xilinx/13.2/ISE_DS/PlanAhead/parts/arch.xml
+Parsing RTL primitives file [/opt/Xilinx/13.2/ISE_DS/PlanAhead/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [/opt/Xilinx/13.2/ISE_DS/PlanAhead/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source /home/alw/projects/vtachspartan/pa.fromHdl.tcl
+# create_project -name vtachspartan -dir "/home/alw/projects/vtachspartan/planAhead_run_1" -part xc3s1000ft256-4
+Parsing template File [/opt/Xilinx/13.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Finished parsing template File [/opt/Xilinx/13.2/ISE_DS/ISE/data/projnav/templates/verilog.xml].
+Parsing template File [/opt/Xilinx/13.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Finished parsing template File [/opt/Xilinx/13.2/ISE_DS/ISE/data/projnav/templates/vhdl.xml].
+Parsing template File [/opt/Xilinx/13.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+Finished parsing template File [/opt/Xilinx/13.2/ISE_DS/ISE/data/projnav/templates/ucf.xml].
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property top top $srcset
+# set_param project.paUcfFile  "vtach.ucf"
+# add_files [list {ipcore_dir/mainmem.ngc}]
+# set hdlfile [add_files [list {digitadd.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {bcdincr.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {usum.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {display.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {bcdneg.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/mainmem.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {io_output.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {io_input.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {debounce.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {bcdadd.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {memory.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {mainclock.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {alu.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {vtach.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# add_files "vtach.ucf" -fileset [get_property constrset [current_run]]
+# add_files "ipcore_dir/mainmem.ncf" -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s1000ft256-4
+INFO: [PlanAhead-58] Using Verific elaboration
+Parsing VHDL file "/opt/Xilinx/13.2/ISE_DS/PlanAhead/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Parsing package <attributes>.
+Analyzing Verilog file "/home/alw/projects/vtachspartan/digitadd.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/bcdincr.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/usum.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/display.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/bcdneg.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/ipcore_dir/mainmem.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/io_output.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/io_input.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/debounce.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/bcdadd.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/memory.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/mainclock.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/alu.v" into library work
+Analyzing Verilog file "/home/alw/projects/vtachspartan/vtach.v" into library work
+WARNING: [HDL-1016] Port RST_IN is not connected to this instance [/home/alw/projects/vtachspartan/vtach.v:68]
+WARNING: [HDL-1499] Empty module <mainmem> remains a black box. [/home/alw/projects/vtachspartan/ipcore_dir/mainmem.v:39]
+WARNING: [HDL-189] Size mismatch in connection of port <a>. Formal port size is 17-bit while actual signal size is 8-bit. [/home/alw/projects/vtachspartan/vtach.v:48]
+WARNING: [HDL-413] Result of 32-bit expression is truncated to fit in 2-bit target. [/home/alw/projects/vtachspartan/display.v:56]
+WARNING: [HDL-413] Result of 25-bit expression is truncated to fit in 24-bit target. [/home/alw/projects/vtachspartan/display.v:59]
+WARNING: [HDL-413] Result of 32-bit expression is truncated to fit in 19-bit target. [/home/alw/projects/vtachspartan/debounce.v:54]
+WARNING: [HDL-189] Size mismatch in connection of port <a>. Formal port size is 17-bit while actual signal size is 16-bit. [/home/alw/projects/vtachspartan/bcdneg.v:11]
+WARNING: [HDL-189] Size mismatch in connection of port <a>. Formal port size is 17-bit while actual signal size is 12-bit. [/home/alw/projects/vtachspartan/bcdneg.v:19]
+WARNING: [HDL-189] Size mismatch in connection of port <phase>. Formal port size is 5-bit while actual signal size is 4-bit. [/home/alw/projects/vtachspartan/vtach.v:50]
+WARNING: [HDL-413] Result of 13-bit expression is truncated to fit in 12-bit target. [/home/alw/projects/vtachspartan/vtach.v:99]
+WARNING: [HDL-552] Input port RST_IN is not connected on this instance [/home/alw/projects/vtachspartan/vtach.v:68]
+Removing all analyzed parse trees
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Release 13.2 - ngc2edif O.61xd (lin64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+Reading design mainmem.ngc ...
+WARNING:NetListWriters:298 - No output is written to mainmem.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file mainmem.edif ...
+ngc2edif: Total memory usage is 78260 kilobytes
+
+Reading core file '/home/alw/projects/vtachspartan/ipcore_dir/mainmem.ngc' for (cell view 'mainmem', library 'work', file 'mainmem.v')
+Parsing EDIF File [./.Xil-PlanAhead-25392-enterprise/ngc2edif/mainmem.edif]
+Finished Parsing EDIF File [./.Xil-PlanAhead-25392-enterprise/ngc2edif/mainmem.edif]
+INFO: [ArchReader-18] Reading macro library /opt/Xilinx/13.2/ISE_DS/PlanAhead/./parts/xilinx/spartan3/hd_int_macros.edn
+Parsing EDIF File [/opt/Xilinx/13.2/ISE_DS/PlanAhead/./parts/xilinx/spartan3/hd_int_macros.edn]
+Finished Parsing EDIF File [/opt/Xilinx/13.2/ISE_DS/PlanAhead/./parts/xilinx/spartan3/hd_int_macros.edn]
+INFO: [ArchReader-7] Loading clock regions from /opt/Xilinx/13.2/ISE_DS/PlanAhead/parts/xilinx/spartan3/spartan3/xc3s1000/ClockRegion.xml
+INFO: [ArchReader-8] Loading clock buffers from /opt/Xilinx/13.2/ISE_DS/PlanAhead/parts/xilinx/spartan3/spartan3/xc3s1000/ClockBuffers.xml
+INFO: [ArchReader-3] Loading package from /opt/Xilinx/13.2/ISE_DS/PlanAhead/parts/xilinx/spartan3/spartan3/xc3s1000/ft256/Package.xml
+INFO: [ArchReader-4] Loading io standards from /opt/Xilinx/13.2/ISE_DS/PlanAhead/./parts/xilinx/spartan3/IOStandards.xml
+INFO: [ArchReader-5] Loading pkg sso from /opt/Xilinx/13.2/ISE_DS/PlanAhead/parts/xilinx/spartan3/spartan3/xc3s1000/ft256/SSORules.xml
+INFO: [GDRC-0] Loading list of drcs for the architecture : /opt/Xilinx/13.2/ISE_DS/PlanAhead/./parts/xilinx/spartan3/drc.xml
+INFO: [LIB-0] Reading timing library /opt/Xilinx/13.2/ISE_DS/PlanAhead/parts/xilinx/spartan3/spartan3/spartan3-4.lib .
+INFO: [LIB-1] Done reading timing library /opt/Xilinx/13.2/ISE_DS/PlanAhead/parts/xilinx/spartan3/spartan3/spartan3-4.lib .
+Parsing UCF File [/home/alw/projects/vtachspartan/ipcore_dir/mainmem.ncf]
+Finished Parsing UCF File [/home/alw/projects/vtachspartan/ipcore_dir/mainmem.ncf]
+Parsing UCF File [/home/alw/projects/vtachspartan/vtach.ucf]
+Finished Parsing UCF File [/home/alw/projects/vtachspartan/vtach.ucf]
+INFO: [Project-5] Unisim Transformation Summary:
+No Unisim elements were transformed.
+open_rtl_design: Time (s): 7.460u 0.250s 5.930w. Memory (MB): 4461.445p 53.234g
+startgroup
+set_property IOSTANDARD {} [get_ports [list {led[7]} {led[6]} {led[5]} {led[4]} {led[3]} {led[2]} {led[1]} {led[0]}]]
+endgroup
+set_property SLEW FAST [get_ports [list {led[7]} {led[6]} {led[5]} {led[4]} {led[3]} {led[2]} {led[1]} {led[0]}]]
+set_property SLEW FAST [get_ports [list {sw[7]} {sw[6]} {sw[5]} {sw[4]} {sw[3]} {sw[2]} {sw[1]} {sw[0]}]]
+set_property SLEW FAST [get_ports [list ds0]]
+set_property SLEW FAST [get_ports [list ds1]]
+set_property SLEW FAST [get_ports [list ds2]]
+set_property SLEW FAST [get_ports [list ds3]]
+set_property SLEW FAST [get_ports [list segA]]
+set_property SLEW FAST [get_ports [list segB]]
+set_property SLEW FAST [get_ports [list segC]]
+set_property SLEW FAST [get_ports [list segD]]
+set_property SLEW FAST [get_ports [list segE]]
+set_property SLEW FAST [get_ports [list segF]]
+set_property SLEW FAST [get_ports [list segG]]
+save_design
+exit
+stop_gui
+INFO: [PlanAhead-261] Exiting PlanAhead...
+INFO: [Common-83] Releasing license: PlanAhead

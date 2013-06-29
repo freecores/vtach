@@ -1,0 +1,20 @@
+ISim log file
+Running: /home/alw/projects/vtachspartan/bcdadd_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/alw/projects/vtachspartan/bcdadd_tb_isim_beh.wdb 
+ISim O.61xd (signature 0xb4d1ced7)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+WARNING:  For instance aneg/negplus/, width 17 of formal port a is not equal to width 16 of actual constant.
+WARNING: File "/home/alw/projects/vtachspartan/bcdadd.v" Line 3.  For instance aneg/negplus/, width 17 of formal port z is not equal to width 16 of actual signal yn.
+WARNING:  For instance bneg/negplus/, width 17 of formal port a is not equal to width 12 of actual constant.
+WARNING: File "/home/alw/projects/vtachspartan/bcdadd.v" Line 10.  For instance bneg/negplus/, width 17 of formal port z is not equal to width 12 of actual signal yn.
+WARNING:  For instance zneg/negplus/, width 17 of formal port a is not equal to width 16 of actual constant.
+WARNING: File "/home/alw/projects/vtachspartan/bcdadd.v" Line 3.  For instance zneg/negplus/, width 17 of formal port z is not equal to width 16 of actual signal yn.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 10000 us
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# exit 0
